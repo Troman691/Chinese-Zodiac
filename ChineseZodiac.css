@@ -1,0 +1,22 @@
+body {
+      animation: colorchange 8s linear 0s infinite;
+    }
+
+    @keyframes colorchange
+    {
+      from {background-color: Red;}
+      to {background-color: Gold;}
+}
+
+h3 {
+  color: black;
+  font-family: sans-serif;
+  font-size: 25px;
+
+}
+ input {
+  color: orange;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 15px;
+}

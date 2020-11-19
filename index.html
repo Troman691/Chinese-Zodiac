@@ -1,0 +1,69 @@
+<html>
+<head>
+  <title>Chinese Zodiac Animal</title>
+  <link rel = "stylesheet" href = "ChineseZodiac.css">
+  <script>
+    function animalYrFinder()
+    {
+      var Number = document.getElementById("year").value;
+      if(Number % 12 == 0)
+      {
+        document.getElementById("pic").innerHTML = "<img src = 'MonkeyZodiac.jpg'>";
+      }
+      if(Number % 12 == 1)
+      {
+        document.getElementById("pic").innerHTML = "<img src = 'RoosterZodiac.jpg'>";
+      }
+      if(Number % 12 == 2)
+      {
+        document.getElementById("pic").innerHTML = "<img src = 'DogZodiac.jpg'>";
+      }
+      if(Number % 12 == 3)
+      {
+        document.getElementById("pic").innerHTML = "<img src = 'PigZodiac.jpg'>";
+      }
+      if(Number % 12 == 4)
+      {
+        document.getElementById("pic").innerHTML = "<img src = 'RatZodiac.jpg'>";
+      }
+      if(Number % 12 == 5)
+      {
+        document.getElementById("pic").innerHTML = "<img src = 'OxZodiac.jpg'>";
+      }
+      if(Number % 12 == 6)
+      {
+        document.getElementById("pic").innerHTML = "<img src = 'TigerZodiac.jpg'>";
+      }
+      if(Number % 12 == 7)
+      {
+        document.getElementById("pic").innerHTML = "<img src = 'RabbitZodiac.jpg'>";
+      }
+      if(Number % 12 == 8)
+      {
+        document.getElementById("pic").innerHTML = "<img src = 'DragonZodiac.jpg'>";
+      }
+      if(Number % 12 == 9)
+      {
+        document.getElementById("pic").innerHTML = "<img src = 'SnakeZodiac.jpg'>";
+      }
+      if(Number % 12 == 10)
+      {
+        document.getElementById("pic").innerHTML = "<img src = 'HorseZodiac.jpg'>";
+      }
+      if(Number % 12 == 11)
+      {
+        document.getElementById("pic").innerHTML = "<img src = 'GoatZodiac.jpg'>";
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <center>
+    <h3>Chinese Zodiac</h3>
+    <input type= "text" id = "year">
+    <input type= "button" value = "Enter" onclick = "animalYrFinder()">
+    <br>
+    <br>
+    <span id = "pic"></span>
+    </body>
+</html>
